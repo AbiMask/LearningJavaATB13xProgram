@@ -1,6 +1,6 @@
 package ex_01_Java_Basic;
 
-public class TablesOfNine {
+public class Task_TablesOfNine {
     public static void main(String[] args) {
         int a = 9;
         int b = 1;
