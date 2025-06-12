@@ -5,7 +5,7 @@ public class TablesOfNine {
         int a = 9;
         int b = 1;
         System.out.printf("%d x %d = %d",a,b,a*b);
-        System.out.println(" ");
+        System.out.println();
         b++;
 
         System.out.printf("%d x %d = %d",a,b,a*b);
