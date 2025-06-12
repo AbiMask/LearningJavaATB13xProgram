@@ -1,6 +1,6 @@
 package ex_01_Java_Basic;
 
-public class prinf {
+public class TablesOfNine {
     public static void main(String[] args) {
         int a = 9;
         int b = 1;
