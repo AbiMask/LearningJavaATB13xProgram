@@ -1,4 +1,4 @@
-package ex06_UserInput;
+package ex_06_UserInput;
 
 import java.util.Scanner;
 
