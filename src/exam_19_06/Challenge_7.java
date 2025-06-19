@@ -18,5 +18,5 @@ public class Challenge_7 {
         else{
           System.out.println("Largest number is: "+var3);
         }
-
+  }
 }
