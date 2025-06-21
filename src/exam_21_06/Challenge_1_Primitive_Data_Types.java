@@ -1,4 +1,4 @@
-package Re_exam_21_06;
+package exam_21_06;
 
 public class Challenge_1_Primitive_Data_Types {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Re_exam_21_06;
+package exam_21_06;
 
 import java.util.Scanner;
 

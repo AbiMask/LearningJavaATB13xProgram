@@ -1,4 +1,4 @@
-package Re_exam_21_06;
+package exam_21_06;
 
 public class Challenge_13_Multiplication {
     public static void main(String[] args) {
