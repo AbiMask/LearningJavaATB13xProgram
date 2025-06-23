@@ -31,12 +31,9 @@ public class Palindrome_String {
         System.out.println("Entered into loop");
         String rev = "";
         for(int i=name.length()-1; i>=0; i--){
-            rev = rev +name.charAt(i);
+            rev = rev + name.charAt(i);
         }
-        if(name.equalsIgnoreCase(rev))
-            return true;
-        else
-            return  false;
+        return name.equalsIgnoreCase(rev);
     }
 
 }
