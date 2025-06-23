@@ -29,10 +29,9 @@ public class Palindrome_String {
 
     public static boolean check_Palindrome_Rev(String name){
         System.out.println("Entered into loop");
-        String rev = new String();
+        String rev = "";
         for(int i=name.length()-1; i>=0; i--){
             rev = rev +name.charAt(i);
-            System.out.println(rev);
         }
         if(name.equalsIgnoreCase(rev))
             return true;
