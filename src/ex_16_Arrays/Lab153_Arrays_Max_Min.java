@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Lab153_Arrays_Max_Min {
     public static void main(String[] args) {
 
-        int[] arr = {234,1,13,14,14,5245,245};
+        int[] arr = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
 
         /*
         Arrays.sort(arr);
