@@ -5,6 +5,10 @@ public class Lab166_OOPs {
 
         Person abi = new Person(); //Creation of Object abi
 
+        //Person - Class - will lod in Class Loader
+        //abi - Object Reference
+        //new Person() - Object
+
         abi.walk();
         abi.eat("Dosa");
         abi.sleep();
