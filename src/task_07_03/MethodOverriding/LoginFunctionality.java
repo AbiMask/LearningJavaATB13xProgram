@@ -7,6 +7,8 @@ public class LoginFunctionality {
 
         new RegularUser().login();
     }
+
+
 }
 
 class User {
@@ -16,7 +18,7 @@ class User {
 }
 
 class AdminUser extends User{
-    void login(){
+     void login(){
         System.out.println("Admin User");
     }
 
