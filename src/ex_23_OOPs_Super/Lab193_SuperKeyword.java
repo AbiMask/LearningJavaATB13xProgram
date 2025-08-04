@@ -1,45 +1,42 @@
 package ex_23_OOPs_Super;
 
 public class Lab193_SuperKeyword {
-    public static void main(String[] args) {
-        F1Car car = new F1Car("Magesh");
-        car.message(10);
-    }
 }
 
-class Vehicle{
-    public int max_speed = 200;
+ class Vehicle{
+    int max_speed = 100;
 
-    Vehicle(){
-        System.out.println("I'm Vehicle DC");
-    }
+     Vehicle(){
+         System.out.println("Default Constructor of Vehicle Class");
+     }
 
-    Vehicle(String a){
-        System.out.println("I'm Vehicle PC with value: "+a);
-    }
+     Vehicle(int a){
+         System.out.println("Parameterized Constructor of Vehicle Class");
+     }
 
-    void message(){
-        System.out.println("I'm Vehicle class message method");
-    }
+     void message(){
+         System.out.println("Type1");
+     }
 
-    void message(int a){
-        System.out.println("I'm Vehicle class message method with value: "+a);
-    }
+     void message(int a){
+         System.out.println("Type2");
+     }
+
+     int message(String a){
+         System.out.println("Type3");
+         return 0;
+     }
+
+     int message(int a, int b){
+         System.out.println("Type4");
+         return a+b;
+     }
+
+     void display(){
+         System.out.println("Vehicle Parent");
+     }
 }
 
-class F1Car extends Vehicle{
-    public int max_speed = 100;
-    F1Car(){
-        //super();
-        this("Subishek");
-    }
-
-    F1Car(String a){
-        super("Abishek " + a);
-    }
-
-    void message(int a){
-        System.out.println("I'm Vehicle class message method with value: "+ a +" " +super.max_speed);
-    }
+class Car extends Vehicle{
 
 }
