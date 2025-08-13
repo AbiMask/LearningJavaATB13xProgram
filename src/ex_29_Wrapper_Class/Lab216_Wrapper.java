@@ -74,7 +74,7 @@ class Mobile extends OldPhone{
         System.out.println("Change price in Integers");
     }
     void priceChange(Double price){
-        System.out.println("Change price in  decimals");
+        System.out.println("Change price in decimals");
     }
 
     @Override
